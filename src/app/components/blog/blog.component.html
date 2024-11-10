@@ -1,0 +1,22 @@
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Loop over the collection of products -->
+                <div *ngFor="let article of articles" class="card">
+
+                    <div class="container">
+                        <!-- Dynamically bind the image source with the assets path -->
+                        <img [src]="'assets/images/' + article.Image" class="img-responsive" alt="Product Image">
+                        <h1>{{ article.Title }}</h1>
+                        <p>{{ article.Introduction }}</p>
+
+                        <div class="price">{{ article.LastMod }}</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

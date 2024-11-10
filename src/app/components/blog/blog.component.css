@@ -1,0 +1,50 @@
+.article-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  .main-content{
+    padding-top:116px;
+    min-height:100vh
+}
+.header-desktop .section-content{
+  overflow:visible;
+  position:absolute;
+  top:50%;
+  left:0;
+  right:0;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  -o-transform:translateY(-50%);
+  transform:translateY(-50%)
+}
+.section-content-p30{
+  padding:0 30px
+}  
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
